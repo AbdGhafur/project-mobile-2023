@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:uas_wisata_madura/page/login_page.dart';
+import 'package:uas_wisata_madura/page/signup_page.dart';
+import 'package:uas_wisata_madura/screens/category_screen.dart';
 
-import './screens/category_screen.dart';
 import './screens/detail_screen.dart';
 import './screens/places_screen.dart';
 
@@ -21,9 +23,12 @@ class MyApp extends StatelessWidget {
                 titleLarge: TextStyle(fontWeight: FontWeight.bold),
               )),
       routes: {
-        '/': (ctx) => CategoryScreen(),
+        '/': (ctx) => LoginPage(),
         '/places': (ctx) => PlacesScreen(),
-        '/detail': (ctx) => DetailScreen()
+        '/detail': (ctx) => DetailScreen(),
+        '/category': (ctx) => CategoryScreen(),
+        '/signup': (ctx) => SignupPage(),
+        '/login': (ctx) => LoginPage(),
       },
     );
   }
