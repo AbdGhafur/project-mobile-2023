@@ -72,7 +72,7 @@ class DetailScreen extends StatelessWidget {
                     size: 40,
                   ),
                   Text(
-                    "Tiket Masuk: Rp ${selectedPlace.price}",
+                    "Harga : Rp ${selectedPlace.price}",
                     style: Theme.of(context).textTheme.titleMedium,
                   )
                 ],
