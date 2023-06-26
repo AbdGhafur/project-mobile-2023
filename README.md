@@ -8,7 +8,19 @@ This project is a starting point for a Flutter application.
 
 ## Halaman Pertama
 ## Login
+## Memasukkan Akun yang sudah di daftrakan , kalau belum ada akun melakukan sign up terlebih dahulu
+
 ![Alt text](image.png)
+
+## Halaman Kedua
+## yaitu berisi 4 hal parwisata Di Madura
+![Alt text](image-1.png)
+
+## Halaman Ketiga yaitu ketika meng klik wisata pantai maka akan diarahkan ap saja pantai yang ada di madura
+
+![Alt text](image-2.png)
+## Detail Screen
+![Alt text](image-3.png)
 
 A few resources to get you started if this is your first Flutter project:
 
