@@ -2,8 +2,8 @@
     package="com.example.uas_wisata_madura">
    <application
         android:label="uas_wisata_madura"
-        android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:name="androidx.multidex.MultiDexApplication">
         <activity
             android:name=".MainActivity"
             android:exported="true"

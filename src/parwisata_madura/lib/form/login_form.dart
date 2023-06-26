@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:route_transitions/route_transitions.dart';
+import 'package:uas_wisata_madura/screens/category_screen.dart';
 
 class LoginForm extends StatelessWidget {
   @override
@@ -17,7 +19,7 @@ class LoginForm extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(height: 20.0),
+          SizedBox(height: 10.0),
           TextField(
             obscureText: true,
             decoration: InputDecoration(
@@ -29,12 +31,24 @@ class LoginForm extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(height: 20.0),
+          SizedBox(height: 50.0),
           ElevatedButton(
-            onPressed: () {
-              Navigator.pushReplacementNamed(context, '/category');
-            },
-            child: Text("Login"),
+            style: ElevatedButton.styleFrom(
+              primary: Colors.blue,
+              padding: const EdgeInsets.symmetric(vertical: 16),
+            ),
+            child: const Text(
+              'Login',
+              style: TextStyle(
+                fontSize: 15,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
+            ),
+            onPressed: () => slideLeftWidget(
+              newPage: CategoryScreen(),
+              context: context,
+            ),
           ),
         ],
       ),

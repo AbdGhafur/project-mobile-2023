@@ -19,7 +19,6 @@ class SignupForm extends StatelessWidget {
           ),
           SizedBox(height: 20.0),
           TextField(
-            obscureText: true,
             decoration: InputDecoration(
               hintText: "Email",
               filled: true,
@@ -31,7 +30,6 @@ class SignupForm extends StatelessWidget {
           ),
           SizedBox(height: 20.0),
           TextField(
-            obscureText: true,
             decoration: InputDecoration(
               hintText: "No HP",
               filled: true,

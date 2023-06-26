@@ -26,9 +26,10 @@ class MyApp extends StatelessWidget {
         '/': (ctx) => LoginPage(),
         '/places': (ctx) => PlacesScreen(),
         '/detail': (ctx) => DetailScreen(),
-        '/category': (ctx) => CategoryScreen(),
         '/signup': (ctx) => SignupPage(),
         '/login': (ctx) => LoginPage(),
+        '/category': (ctx) => CategoryScreen(),
+        '/tab': (ctx) => CategoryScreen(),
       },
     );
   }

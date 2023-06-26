@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:route_transitions/route_transitions.dart';
 import 'package:uas_wisata_madura/form/login_form.dart';
+import 'package:uas_wisata_madura/page/signup_page.dart';
+import 'package:uas_wisata_madura/screens/category_screen.dart';
+import 'package:uas_wisata_madura/services/firebase_sign_in.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -27,12 +31,33 @@ class LoginPage extends StatelessWidget {
             LoginForm(),
             SizedBox(height: 20.0),
             TextButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/signup');
-              },
+              onPressed: () => slideRightWidget(
+                newPage: SignupPage(),
+                context: context,
+              ),
               child: Text(
                 "Don't have an account? Sign up here",
                 style: TextStyle(color: Colors.white),
+              ),
+            ),
+            SizedBox(height: 0),
+            ElevatedButton(
+              style:
+                  ElevatedButton.styleFrom(backgroundColor: Colors.transparent),
+              onPressed: () {
+                signInWithGoogle().then((result) {
+                  if (result != null) {
+                    Navigator.of(context)
+                        .push(MaterialPageRoute(builder: (context) {
+                      return CategoryScreen();
+                    }));
+                  }
+                });
+              },
+              child: Image.asset(
+                "assets/google.png",
+                width: 40,
+                height: 40,
               ),
             ),
           ],

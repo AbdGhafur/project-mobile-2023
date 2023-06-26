@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1064369618664",
+    "project_id": "parwisata-b821f",
+    "storage_bucket": "parwisata-b821f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064369618664:android:5de770652ca64d6ddf135d",
+        "android_client_info": {
+          "package_name": "com.example.uas_wisata_madura"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064369618664-baq6hlaso4o2v9v2aogr4uuanfbte88f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uas_wisata_madura",
+            "certificate_hash": "e6bd81599a408388179ba4dc86f562fafbd90d1b"
+          }
+        },
+        {
+          "client_id": "1064369618664-q9em8b5sv1f63guauvnhu18bls0khfh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuk4lXhUPqEMd_meqXhS2ej49hX_57Mq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064369618664-bkqcbpletp0uchsjqottnp3rpg57hb5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

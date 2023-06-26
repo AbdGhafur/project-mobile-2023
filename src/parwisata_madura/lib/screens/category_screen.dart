@@ -2,13 +2,25 @@ import 'package:flutter/material.dart';
 
 import '../components/list_category.dart';
 import '../dummy_data.dart';
+import '../page/crud.dart';
 
 class CategoryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Pariwisata Madura"),
+        title: Text('My App'),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(
+              Icons.settings,
+              color: Colors.white,
+            ),
+            onPressed: () {
+          
+            },
+          )
+        ],
       ),
       body: GridView(
         padding: EdgeInsets.all(15),

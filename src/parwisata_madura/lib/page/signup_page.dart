@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:route_transitions/route_transitions.dart';
 import 'package:uas_wisata_madura/form/signup_form.dart';
+import 'package:uas_wisata_madura/page/login_page.dart';
 
 class SignupPage extends StatelessWidget {
   @override
@@ -27,9 +29,10 @@ class SignupPage extends StatelessWidget {
             SignupForm(),
             SizedBox(height: 20.0),
             TextButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/login');
-              },
+              onPressed: () => slideLeftWidget(
+                newPage: LoginPage(),
+                context: context,
+              ),
               child: Text(
                 "Already have an account? Log in here",
                 style: TextStyle(color: Colors.white),
