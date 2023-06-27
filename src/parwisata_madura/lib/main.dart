@@ -8,20 +8,25 @@ import './screens/places_screen.dart';
 
 void main() => runApp(MyApp());
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
+  @override
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Aplikasi Pariwisata',
       theme: ThemeData(
-          primaryColor: Colors.pinkAccent,
-          accentColor: Colors.pink,
-          canvasColor: Color.fromRGBO(255, 254, 229, 1),
-          textTheme: ThemeData.light().textTheme.copyWith(
-                titleMedium:
-                    TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
-                titleLarge: TextStyle(fontWeight: FontWeight.bold),
-              )),
+        primaryColor: Colors.pinkAccent,
+        accentColor: Colors.pink,
+        canvasColor: Color.fromRGBO(255, 254, 229, 1),
+        textTheme: ThemeData.light().textTheme.copyWith(
+              titleMedium: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+              titleLarge: TextStyle(fontWeight: FontWeight.bold),
+            ),
+      ),
       routes: {
         '/': (ctx) => LoginPage(),
         '/places': (ctx) => PlacesScreen(),
