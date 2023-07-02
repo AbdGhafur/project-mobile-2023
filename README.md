@@ -15,6 +15,9 @@ Deskripsi:Aplikasi Ini membantu untuk pengunjung dari luar madura ataupun dalam 
 5. Detail nya yaitu berisi tentang Deskripsi,harga tiket masuk, dan nama pantai
 
 ![Alt text](image.png)
+Sign up
+![image](https://github.com/AbdGhafur/project-mobile-2023/assets/92065915/f9cc906f-7279-45ab-b428-aa501515955c)
+
 
 ## Halaman Utama
 ## yaitu berisi 4 hal parwisata Di Madura
