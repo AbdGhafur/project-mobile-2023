@@ -1,8 +1,5 @@
 # uas_wisata_madura
 
-A new Flutter project.
-
-## Getting Started
 
 This project is a starting point for a Flutter application.
 
