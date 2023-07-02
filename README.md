@@ -1,7 +1,10 @@
-# uas_wisata_madura
-
-
-This project is a starting point for a Flutter application.
+# PROJECT-MOBILE-2023- PARIWISATA MADURA
+Nama: Abd Ghafur
+Nim : 2131750001
+---------------------------------
+Deskripsi:Aplikasi Ini membantu untuk pengunjung dari luar madura ataupun dalam madura untuk mencari wisata yang indah di dalam pulau madura
+---------------------------------
+# Cara Running Aplikasi
 
 ## Halaman Pertama
 ## Login
