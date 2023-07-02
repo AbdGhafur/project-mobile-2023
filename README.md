@@ -5,10 +5,9 @@
 Deskripsi:Aplikasi Ini membantu untuk pengunjung dari luar madura ataupun dalam madura untuk mencari wisata yang indah di dalam pulau madura
 # ---------------------------------
 # Cara Running Aplikasi
-
-## Halaman Pertama
+# ---------------------------------
 ## Login
-## Memasukkan Akun yang sudah di daftrakan , kalau belum ada akun melakukan sign up terlebih dahulu
+1. Memasukkan Akun yang sudah di daftrakan , kalau belum ada akun melakukan sign up terlebih dahulu
 
 ![Alt text](image.png)
 
