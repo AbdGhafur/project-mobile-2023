@@ -2,7 +2,7 @@
 # Nama: Abd Ghafur
 # Nim : 2131750001
 # ---------------------------------
-Deskripsi:Aplikasi Ini membantu untuk pengunjung dari luar madura ataupun dalam madura untuk mencari wisata yang indah di dalam pulau madura
+# Deskripsi:Aplikasi Ini membantu untuk pengunjung dari luar madura ataupun dalam madura untuk mencari wisata yang indah di dalam pulau madura
 # ---------------------------------
 # Cara Running Aplikasi
 # ---------------------------------
