@@ -7,16 +7,20 @@ Deskripsi:Aplikasi Ini membantu untuk pengunjung dari luar madura ataupun dalam 
 # Cara Running Aplikasi
 # ---------------------------------
 ## Login
-1. Memasukkan Akun yang sudah di daftrakan , kalau belum ada akun melakukan sign up terlebih dahulu
+1. Lakukan Login dengan mengisi field inputan pada halaman login kemudian klik button "MASUK" untuk masuk ke halaman utama atau bisa login menggunakan akun google dengan mengklik logo "GOOGLE", jika BELUM memiliki akun bisa mengklik teks "Singn Up" untuk melakukan singn up.
+2. Lakukan Singn up dengan mengisi field inputan pada halaman Singn up kemudian klik button "DAFTAR" untuk masuk ke halaman utama, jika SUDAH memiliki akun bisa mengklik teks "Sign up" untuk melakukan register. atau bisa login menggunakan akun google dengan mengklik logo "GOOGLE"
+3. Setelah login/singn up berhasil akan menampilkan halaman utama.
+4.Pada halaman utama ada 4 pilihan button yaitu wisata pantai, budaya, kuliner dan Religi
+ Contoh ketika Mengklik button pantai maka akan tampil wisata - wisata pantai yang ada di     madura
+5. Detail nya yaitu berisi tentang Deskripsi,harga tiket masuk, dan nama pantai
 
 ![Alt text](image.png)
 
-## Halaman Kedua
+## Halaman Utama
 ## yaitu berisi 4 hal parwisata Di Madura
 ![Alt text](image-1.png)
 
-## Halaman Ketiga yaitu ketika meng klik wisata pantai maka akan diarahkan ap saja pantai yang ada di madura
-
+## Halaman Ketiga Berisi tentang tempat - tempat wisatanya
 ![Alt text](image-2.png)
 ## Detail Screen
 ![Alt text](image-3.png)
