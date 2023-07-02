@@ -14,19 +14,22 @@ Deskripsi:Aplikasi Ini membantu untuk pengunjung dari luar madura ataupun dalam 
  Contoh ketika Mengklik button pantai maka akan tampil wisata - wisata pantai yang ada di     madura
 5. Detail nya yaitu berisi tentang Deskripsi,harga tiket masuk, dan nama pantai
 
-![Alt text](image.png)
-Sign up
+![image](https://github.com/AbdGhafur/project-mobile-2023/assets/92065915/216a60ab-ab1b-4a46-bf7a-2cbc96a5b6bd)
+
 ![image](https://github.com/AbdGhafur/project-mobile-2023/assets/92065915/f9cc906f-7279-45ab-b428-aa501515955c)
+![image](https://github.com/AbdGhafur/project-mobile-2023/assets/92065915/e4cdb9b9-1a69-47a6-b363-825f7045b54e)
 
 
 ## Halaman Utama
 ## yaitu berisi 4 hal parwisata Di Madura
-![Alt text](image-1.png)
+![image](https://github.com/AbdGhafur/project-mobile-2023/assets/92065915/d20ccfe7-44bd-4c95-aee9-c8f91925c870)
 
 ## Halaman Ketiga Berisi tentang tempat - tempat wisatanya
-![Alt text](image-2.png)
+![image](https://github.com/AbdGhafur/project-mobile-2023/assets/92065915/ca2f0fca-9238-4d89-a023-f6e3a88e39b6)
+
 ## Detail Screen
-![Alt text](image-3.png)
+![image](https://github.com/AbdGhafur/project-mobile-2023/assets/92065915/dac2aec0-d8b7-40d2-b58e-347953ade612)
+
 
 A few resources to get you started if this is your first Flutter project:
 
